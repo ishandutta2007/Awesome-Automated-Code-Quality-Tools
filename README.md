@@ -1,38 +1,45 @@
-# Awesome Automated Code Quality Tools 🚀
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Automated Code Quality Tools Banner" width="100%" />
+</p>
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome List"/></a> <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg" alt="License: CC0-1.0"/></a> <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-> **A curated landscape of top Static Application Security Testing (SAST), Static Code Analysis, Linters, Code Smells, Software Composition Analysis (SCA), and Automated Quality Gate platforms.**
+# 🚀 Awesome Automated Code Quality Tools
 
-The **Automated Code Quality & SAST** market is estimated at **~$3.2 Billion USD**, projected to reach **~$7.5 Billion by 2030** (CAGR ~18.5%). The sector is **moderately fragmented**, featuring high enterprise consolidation around major platform vendors (Microsoft/GitHub, Synopsys, SonarSource, Snyk, Veracode, Checkmarx) alongside a thriving ecosystem of open-source linters and specialized static engines.
+> **A curated landscape of top Static Application Security Testing (SAST), Static Code Analysis, Linters, Code Smells, Software Composition Analysis (SCA), and Automated Quality Gate platforms.** 🛡️✨
+
+The **Automated Code Quality & SAST** market is estimated at **~$3.2 Billion USD**, projected to reach **~$7.5 Billion by 2030** (CAGR ~18.5%). The sector is **moderately fragmented**, featuring high enterprise consolidation around major platform vendors (Microsoft/GitHub, Synopsys, SonarSource, Snyk, Veracode, Checkmarx) alongside a thriving ecosystem of open-source linters and specialized static engines. 📈
 
 ---
 
 ## 📋 Table of Contents
-- [Market Overview](#-market-overview)
-- [SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
-- [Open-Source GitHub Projects](#-open-source-github-projects)
-- [Key Features Comparison & Selection Criteria](#-key-features-comparison--selection-criteria)
-- [How to Contribute](#-how-to-contribute)
-- [Disclaimer](#-disclaimer)
+- [📊 Market Overview](#-market-overview)
+- [🏢 SaaS & Commercial Hosted Platforms](#-saas--commercial-hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Key Features Comparison & Selection Criteria](#-key-features-comparison--selection-criteria)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
+- [📜 Disclaimer](#-disclaimer)
 
 ---
 
 ## 📊 Market Overview
 
-Automated code quality tools scan source code in CI/CD pipelines to detect security vulnerabilities, code smells, performance bottlenecks, and style violations before pull requests are merged. 
+Automated code quality tools scan source code in CI/CD pipelines to detect security vulnerabilities, code smells, performance bottlenecks, and style violations before pull requests are merged. ⚡
 
-- **Enterprise Platform Trend**: Convergence of SAST (Security), SCA (Dependencies), and Code Quality (Maintainability/Smells) into unified Developer Security Platforms.
-- **Open-Source Engine Standard**: Modern developer workflows rely heavily on fast, local open-source linters and SAST tools (Ruff, ESLint, Semgrep, Trivy) combined with centralized SaaS quality gates.
+- **🏢 Enterprise Platform Trend**: Convergence of SAST (Security), SCA (Dependencies), and Code Quality (Maintainability/Smells) into unified Developer Security Platforms.
+- **🔓 Open-Source Engine Standard**: Modern developer workflows rely heavily on fast, local open-source linters and SAST tools (Ruff, ESLint, Semgrep, Trivy) combined with centralized SaaS quality gates.
 
 ---
 
 ## 🏢 SaaS & Commercial Hosted Platforms
 
-*Sorted by Company Financial Scale / Valuation (Descending)*
+*Sorted by Company Financial Scale / Valuation (Descending)* 💼
 
-| Platform / Product | Starting Price (Tier) | Free Tier / Trial Limit | Company Scale (Valuation / Revenue) | Key Strengths |
+| Platform / Product | Starting Price (Tier) 🏷️ | Free Tier / Trial Limit 🎁 | Company Scale (Valuation / Revenue) 💰 | Key Strengths 🎯 |
 | :--- | :--- | :--- | :--- | :--- |
 | **[GitHub Advanced Security (CodeQL)](https://github.com/security/advanced-security)** | `$49/developer/month` (GHAS Add-on) | Free forever for all public open-source GitHub repos | **Microsoft** (`$3.1T Market Cap` / `$245B Annual Rev`) | Native GitHub PR integration, semantic CodeQL queries, secret scanning |
 | **[Coverity (Synopsys Polaris)](https://www.synopsys.com/software-integrity/security-testing/static-analysis-coverity.html)** | `$3,500/year` per contributor tier | Free via scan.coverity.com for open-source; 30-day enterprise trial | **Synopsys** (`$75B Market Cap` / `$5.3B Annual Rev`) | Deep interprocedural static analysis, enterprise compliance, safety standards |
@@ -50,9 +57,9 @@ Automated code quality tools scan source code in CI/CD pipelines to detect secur
 
 ## 🔓 Open-Source GitHub Projects
 
-*Sorted by GitHub Star Count (Descending)*
+*Sorted by GitHub Star Count (Descending)* 🌟
 
-| Repository / Project | Stars Badge | Category / Focus | Key Features |
+| Repository / Project | Stars Badge ⭐️ | Category / Focus 🔍 | Key Features ⚡ |
 | :--- | :--- | :--- | :--- |
 | **[ShellCheck](https://github.com/koalaman/shellcheck)** | [![GitHub stars](https://img.shields.io/github/stars/koalaman/shellcheck?style=social&color=white)](https://github.com/koalaman/shellcheck/stargazers) | Shell Linter | Static analysis tool giving warnings and suggestions for bash/sh shell scripts. |
 | **[Ruff](https://github.com/astral-sh/ruff)** | [![GitHub stars](https://img.shields.io/github/stars/astral-sh/ruff?style=social&color=white)](https://github.com/astral-sh/ruff/stargazers) | Python Linter / Formatter | Extremely fast Python linter and code formatter written in Rust (10-100x faster than Flake8). |
@@ -82,21 +89,40 @@ Automated code quality tools scan source code in CI/CD pipelines to detect secur
 ## 🛠️ Key Features Comparison & Selection Criteria
 
 When building an automated code quality pipeline:
-1. **Developer Experience (Shift-Left)**: Local editor linters (Ruff, ESLint, Biome) yield immediate feedback (<1 second).
-2. **Pull Request Quality Gates**: Tools like SonarCloud, Semgrep, or Codacy enforce non-negotiable coverage thresholds and zero high-severity bugs before merging.
-3. **Deep Application Security Testing (SAST)**: GitHub CodeQL, Coverity, or Veracode run comprehensive interprocedural analysis to catch complex memory or injection flaws.
+1. ⚡ **Developer Experience (Shift-Left)**: Local editor linters (Ruff, ESLint, Biome) yield immediate feedback (<1 second).
+2. 🎯 **Pull Request Quality Gates**: Tools like SonarCloud, Semgrep, or Codacy enforce non-negotiable coverage thresholds and zero high-severity bugs before merging.
+3. 🔒 **Deep Application Security Testing (SAST)**: GitHub CodeQL, Coverity, or Veracode run comprehensive interprocedural analysis to catch complex memory or injection flaws.
 
 ---
 
 ## 🤝 How to Contribute
 
-1. Fork this repository.
-2. Update or add relevant tools in `README.md` maintaining table formatting.
-3. Ensure accurate pricing, free tier specs, and official stargazer links.
-4. Submit a Pull Request.
+1. 🍴 Fork this repository.
+2. 📝 Update or add relevant tools in `README.md` maintaining table formatting.
+3. 🔍 Ensure accurate pricing, free tier specs, and official stargazer links.
+4. 🚀 Submit a Pull Request.
+
+---
+
+## 💖 Support & Community
+
+If you find this repository helpful, please consider supporting the project! 🌟
+
+- ⭐ **Star this repository** to show your appreciation and help others discover it.
+- 🍴 **Fork it** to contribute new tools or improve existing documentation.
+- 📢 **Share it** with your fellow developers, platform engineers, and security teams.
+- ☕ **Sponsor / Buy me a coffee**: Support ongoing maintenance on the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the automated code quality community! 🙏
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Automated-Code-Quality-Tools&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Automated-Code-Quality-Tools&type=date&legend=top-left)
 
 ---
 
 ## 📜 Disclaimer
 
-*This curated repository is for informational and educational purposes. Product pricing, valuations, and free tier limits are subject to change by respective vendors.*
+*This curated repository is for informational and educational purposes. Product pricing, valuations, and free tier limits are subject to change by respective vendors.* ⚖️
